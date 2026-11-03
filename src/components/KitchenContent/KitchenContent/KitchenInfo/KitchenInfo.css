@@ -25,6 +25,17 @@
   color: #dd4631;
   margin-bottom: 30px;
 }
+.kitchen-info-price-options {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px;
+  color: #dd4631;
+  font-size: 20px;
+  font-weight: 700;
+}
+.kitchen-info-price-options li + li {
+  margin-top: 6px;
+}
 
 .kitchen-info-get-consault {
   max-width: 290px;
@@ -37,6 +48,10 @@
 @media only screen and (max-width: 1100px) {
   .kitchen-info-price {
     font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .kitchen-info-price-options {
+    font-size: 18px;
     margin-bottom: 20px;
   }
   .kitchen-info-code {
@@ -73,5 +88,8 @@
   .kitchen-info-price {
     font-size: 18px;
     margin-bottom: 20px;
+  }
+  .kitchen-info-price-options {
+    font-size: 16px;
   }
 }

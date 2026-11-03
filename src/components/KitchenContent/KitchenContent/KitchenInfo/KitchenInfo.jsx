@@ -9,7 +9,17 @@ export function KitchenInfo({ currentKitchen }) {
         {/* Код товара: <span className="font-semiBold">{currentKitchen.id}</span> */}
       </p>
       {/* <p className="kitchen-info-oldPrice">{currentKitchen.oldPrice}</p> */}
-      <p className="kitchen-info-price">{currentKitchen.price}</p>
+      {currentKitchen.priceOptions ? (
+        <ul className="kitchen-info-price-options">
+          {currentKitchen.priceOptions.map((option) => (
+            <li key={option.title}>
+              <span>{option.title}:</span> {option.price}
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p className="kitchen-info-price">{currentKitchen.price}</p>
+      )}
       <div className="kitchen-info-get-consault">
         <ButtonCalculation text={"Зв’язатись з менеджером"} />
       </div>

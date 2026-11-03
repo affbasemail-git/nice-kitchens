@@ -2,7 +2,7 @@ export const catalog = [
   {
     imgSrc: "/catalog/1.png",
     title: "Річ",
-    price: "15 990",
+    price: "16 790",
     isBest: false,
     id: 1,
   },
@@ -10,7 +10,7 @@ export const catalog = [
   {
     imgSrc: "/catalog/2.png",
     title: "Роял",
-    price: "16 130",
+    price: "16 040",
     isBest: false,
     id: 2,
   },
@@ -18,7 +18,7 @@ export const catalog = [
   {
     imgSrc: "/catalog/17.png",
     title: "AGT plus",
-    price: "11 200",
+    price: "11 750",
     isBest: false,
     id: 17,
   },
@@ -26,7 +26,7 @@ export const catalog = [
   {
     imgSrc: "/catalog/4.png",
     title: "Гранд",
-    price: "17 250",
+    price: "18 110",
     isBest: false,
     id: 4,
   },
@@ -34,7 +34,7 @@ export const catalog = [
   {
     imgSrc: "/catalog/5.png",
     title: "Мінімал",
-    price: "17 250",
+    price: "18 110",
     isBest: false,
     id: 5,
   },
@@ -42,7 +42,7 @@ export const catalog = [
   {
     imgSrc: "/catalog/6.png",
     title: "Альфа",
-    price: "8 090",
+    price: "8 490",
     isBest: false,
     id: 6,
   },
@@ -50,7 +50,7 @@ export const catalog = [
   {
     imgSrc: "/catalog/7.png",
     title: "Елегант",
-    price: "17 250",
+    price: "18 110",
     isBest: false,
     id: 7,
   },
@@ -58,7 +58,7 @@ export const catalog = [
   {
     imgSrc: "/kitchenImg/8/2.jpg",
     title: "Крафт",
-    price: "7 780",
+    price: "8 180",
     isBest: false,
     id: 8,
   },
@@ -66,7 +66,7 @@ export const catalog = [
   {
     imgSrc: "/catalog/9.png",
     title: "Горизонт",
-    price: "7 470",
+    price: "7 850",
     isBest: false,
     id: 9,
   },
@@ -74,7 +74,7 @@ export const catalog = [
   {
     imgSrc: "/catalog/10.webp",
     title: "Модест",
-    price: "7 410",
+    price: "7 770",
     isBest: false,
     id: 10,
   },
@@ -82,7 +82,7 @@ export const catalog = [
   {
     imgSrc: "/catalog/11.png",
     title: "Контемп",
-    price: "10 830",
+    price: "11 360",
     isBest: false,
     id: 11,
   },
@@ -98,7 +98,7 @@ export const catalog = [
   {
     imgSrc: "/catalog/14.png",
     title: "Брайт",
-    price: "15 360",
+    price: "16 140",
     isBest: false,
     id: 14,
   },
@@ -106,7 +106,7 @@ export const catalog = [
   {
     imgSrc: "/kitchenImg/15/7.webp",
     title: "Софт",
-    price: "14 540",
+    price: "15 270",
     isBest: false,
     id: 15,
   },
