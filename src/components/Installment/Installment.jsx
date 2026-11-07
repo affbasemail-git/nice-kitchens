@@ -60,11 +60,8 @@ export function Installment() {
         <div className="container">
           <div className="installment-copy">
             <h2 id="installment-title" className="text-lg font-medium">
-              Кухня у розстрочку чи кредит
+              Кухня у розстрочку
             </h2>
-            <p className="installment-tagline text-base font-bold">
-              Зручно, швидко, онлайн
-            </p>
             <p className="installment-description text-base">
               Отримайте кухню вже зараз, а сплачуйте частинами на вигідних
               умовах.
@@ -73,9 +70,13 @@ export function Installment() {
           <div className="installment-benefits">
             {benefits.map(({ icon: Icon, title, description }) => (
               <article className="installment-benefit" key={title}>
-                <Icon className="installment-benefit-icon" aria-hidden="true" />
-                <h3 className="text-base font-bold">{title}</h3>
-                {description && <p className="text-base">{description}</p>}
+                <div className="installment-benefit-icon" aria-hidden="true">
+                  <Icon />
+                </div>
+                <div className="installment-benefit-copy">
+                  <h3 className="text-base font-bold">{title}</h3>
+                  {description && <p className="text-base">{description}</p>}
+                </div>
               </article>
             ))}
           </div>
