@@ -35,10 +35,11 @@
   max-width: 680px;
   color: #30313a;
   line-height: 1.15;
+  font-weight: 700!important;
 }
 
 .installment-tagline {
-  display: inline-block;
+  display: none;
   margin-top: 20px;
   padding: 7px 20px 9px;
   border-radius: 12px;
@@ -202,7 +203,7 @@
 
   .installment-copy {
     width: 100%;
-    min-height: 200px;
+    min-height: 150px;
     padding: 30px 0 20px;
   }
 
@@ -227,6 +228,10 @@
     border-radius: 18px;
   }
 
+  .pumb{
+    padding: 0 40px;
+  }
+
   .installment-benefit-icon {
     width: 30px;
     height: 30px;
@@ -234,8 +239,10 @@
   }
 
   .installment-benefit h3 {
+    font-size: 14px;
     max-width: 200px;
     line-height: 1.05;
+    padding-top: 10px;
   }
 
   .installment-benefit p {
@@ -252,11 +259,17 @@
 
   .installment-bank-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 10px;
+    gap: 20px;
   }
 
   .installment-bank {
     min-height: 60px;
     border-radius: 14px;
+    padding: 12px 20px;
   }
+
+  .pumb{
+    padding: 12px 50px;
+  }
+
 }

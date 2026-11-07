@@ -50,7 +50,7 @@ const banks = [
     className: "pay-later",
     logo: "/installment/banks/plati.png",
   },
-  { name: "ПУМБ", logo: "/installment/banks/pumb.svg", className: "pumb" },
+  { name: "ПУМБ", logo: "/installment/banks/pumb.webp", className: "pumb" },
 ];
 
 export function Installment() {
