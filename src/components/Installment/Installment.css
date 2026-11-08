@@ -7,7 +7,8 @@
   position: relative;
   overflow: hidden;
   padding: 65px 0;
-  background: #fff url("/installment/new-photo.jpg") center top / cover no-repeat;
+  background: #fff url("/installment/new-photo.jpg") center top / cover
+    no-repeat;
 }
 
 .installment-hero::before {
@@ -15,8 +16,18 @@
   z-index: 0;
   inset: 0;
   background:
-    linear-gradient(90deg, rgb(255 255 255 / 10%) 0%, rgb(255 255 255 / 5%) 55%, rgb(255 255 255 / 14%) 100%),
-    linear-gradient(0deg, rgb(255 255 255 / 92%) 0%, rgb(255 255 255 / 30%) 20%, rgb(255 255 255 / 5%) 52%);
+    linear-gradient(
+      90deg,
+      rgb(255 255 255 / 10%) 0%,
+      rgb(255 255 255 / 5%) 55%,
+      rgb(255 255 255 / 14%) 100%
+    ),
+    linear-gradient(
+      0deg,
+      rgb(255 255 255 / 92%) 0%,
+      rgb(255 255 255 / 30%) 20%,
+      rgb(255 255 255 / 5%) 52%
+    );
   content: "";
   pointer-events: none;
 }
@@ -94,6 +105,7 @@
   max-width: none;
   flex: none;
   stroke-width: 2.2;
+  stroke: #6798cc;
 }
 
 .installment-benefit h3 {
@@ -176,7 +188,9 @@
   object-fit: contain;
 }
 
-.installment-bank.pay-later span { color: #111; }
+.installment-bank.pay-later span {
+  color: #111;
+}
 
 @media (max-width: 1100px) {
   .installment-benefit {
@@ -268,7 +282,6 @@
     border-radius: 18px;
   }
 
-
   .installment-benefit-icon {
     flex-basis: 36px;
     width: 36px;
@@ -314,8 +327,6 @@
   .installment-benefit h3 {
     max-width: 200px;
   }
-
-
 }
 
 @media (max-width: 380px) {
