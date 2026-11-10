@@ -1,6 +1,7 @@
 import { FiCalendar, FiCreditCard, FiMonitor } from "react-icons/fi";
 import "./Installment.css";
 import { LuPercent } from "react-icons/lu";
+import { ButtonCalculation } from "../ButtonСalculation/ButtonCalculation";
 
 const benefits = [
   {
@@ -79,6 +80,12 @@ export function Installment() {
                 </div>
               </article>
             ))}
+          </div>
+          <div className="installment-cta">
+            <ButtonCalculation
+              text="Оформити розстрочку"
+              formType="installment"
+            />
           </div>
         </div>
       </div>

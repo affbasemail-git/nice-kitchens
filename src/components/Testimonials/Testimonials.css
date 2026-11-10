@@ -7,11 +7,18 @@
 }
 .main-image {
   max-width: 1140px;
+  height: 50vh;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-image img {
-  width: 100%;
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .testimonials-card-grid {

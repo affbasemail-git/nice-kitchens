@@ -1,17 +1,18 @@
 import { useFormContext } from "../../FormContext";
 import "./ButtonСalculation.css";
 
-export function ButtonCalculation({ text }) {
+export function ButtonCalculation({ text, formType = "contact" }) {
   const { openForm } = useFormContext();
 
   return (
     <>
-      <div
+      <button
+        type="button"
         className="ButtonСalculation text-sm font-semiBold white"
-        onClick={() => openForm()}
+        onClick={() => openForm(formType)}
       >
         {text}
-      </div>
+      </button>
     </>
   );
 }

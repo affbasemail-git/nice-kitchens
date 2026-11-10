@@ -7,8 +7,9 @@
   position: relative;
   overflow: hidden;
   padding: 65px 0;
-  background: #fff url("/installment/new-photo.jpg") center top / cover
+  background: #fff url("/installment/new-photo.jpg") center 50% / cover
     no-repeat;
+  min-height: 400px;
 }
 
 .installment-hero::before {
@@ -46,6 +47,7 @@
   max-width: 680px;
   color: #30313a;
   line-height: 1.15;
+  font-weight: 700 !important;
 }
 
 .installment-copy h2::after {
@@ -188,6 +190,11 @@
   object-fit: contain;
 }
 
+.installment-cta {
+  max-width: 300px;
+  margin: 22px auto 0;
+}
+
 .installment-bank.pay-later span {
   color: #111;
 }
@@ -239,6 +246,9 @@
 }
 
 @media (max-width: 600px) {
+  .privat{
+    padding: 10px 0px!important;
+  }
   .installment {
     margin-bottom: 60px;
     background-color: #fff;
@@ -310,14 +320,14 @@
   }
 
   .installment-bank-list {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 10px;
   }
 
   .installment-bank {
     min-height: 60px;
     border-radius: 14px;
-    padding: 12px 20px;
+    padding: 10px 14px;
   }
 
   .installment-benefit-copy {
@@ -329,8 +339,12 @@
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 360px) {
   .installment-bank-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .installment-benefit {
+    flex-direction: column;
   }
 }
